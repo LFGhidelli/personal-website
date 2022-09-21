@@ -1,13 +1,14 @@
   <div class="navbar">
-    <%= image_tag 'LFG.jpeg', alt:'#' %>
+    <%= image_tag 'LG.png', alt:'#', class:'nav-logo' %>
     <div class='nav-options'>
       <ul>
         <li><%= link_to 'About', '#' %></li>
         <li><%= link_to 'Experience', '#' %></li>
         <li><%= link_to 'Work', '#' %></li>
         <li><%= link_to 'Contact', '#' %></li>
-        <li><%= link_to 'Resume', '#' %></li>
+        <li><%= link_to 'Resume', '#', class:'resume-btn'%> </li>
       </ul>
+
     </div>
   </div>
 
@@ -29,17 +30,78 @@
 
 
   <h2 class='about-header'><span class='span-num'>01.</span> About me</h2>
+
   <div class='about-section'>
 
     <div class='inner'>
-      <p>Hello! My name is Luis and I'm a trader turned web developer. After almost 4 years in the finance market, I couldn't help but see the huge impact technology had in all sectors across the economy. I decided it was time to make a change, so I quit my job and enrolled in a programming course in Brussels to learn how to code. 450h of hands-on experience later, I'm eager and ready to start my career as a developer.</p>
+      <p>Hello! My name is Luis and <span style='color:#63FFDA'>I'm a trader turned web developer</span>. After almost 4 years in the finance market, I couldn't help but see the huge impact technology had in all sectors across the economy. I decided it was time to make a change, so I quit my job and enrolled in a programming course in Brussels to learn how to code. 450h of hands-on experience later, I was eager and ready to start my career as a developer.</p>
+      <p>Fast forward a bit and I've had the privilege of working at <span style='color:#63FFDA'>the very same coding school I went to, a start-up and another coding school in Dublin</span>. Other than that, I'm always working on side projects.</p>
+      <p>Some techonologies that I've worked with:</p>
+      <ul class='skill-set'>
+        <li>Ruby on Rails</li>
+        <li>Ruby</li>
+        <li>React</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>HTML/ CSS</li>
+      </ul>
     </div>
 
-    <div>
+    <div class='inner-profile-pic'>
       <%= image_tag 'profile_pic.jpeg',alt:'#',class:'about-pic' %>
     </div>
 
   </div>
 
+  <h2 class='about-header'><span class='span-num'>02.</span> Where I've worked</h2>
+  <div class='experience_section'>
+      <div class="company">
+        <p>Trade Analyst @Banco Safra</p>
+        <p class='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem at tenetur dolorem animi, officia eos veritatis aut consequatur inventore aperiam voluptates distinctio, id vero labore expedita ut eius quaerat assumenda.</p>
+        <button class='read-more-btn'>Read More</button>
+      </div>
+      <div class="company">
+        <p>Teaching Assistant @Le Wagon</p>
+        <p class='text-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem at tenetur dolorem animi, officia eos veritatis aut consequatur inventore aperiam voluptates distinctio, id vero labore expedita ut eius quaerat assumenda.</p>
+        <button class='read-more-btn'>Read More</button>
+      </div>
+      <div class="company">
+        <p>Software Engineer Intern @Global Vision Engineering</p>
+        <p class='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem at tenetur dolorem animi, officia eos veritatis aut consequatur inventore aperiam voluptates distinctio, id vero labore expedita ut eius quaerat assumenda.</p>
+        <button class='read-more-btn'>Read More</button>
+      </div>
+  </div>
+
+
+  <h2 class='about-header'><span class='span-num'>03.</span> Things I've built</h2>
+
+  <div class='projects-section'>
+
+    <div class='faros-project'>
+      <%= link_to image_tag('Faros.jpeg'), 'http://www.google.com', class:'faros-btn-pic' %>
+
+      <div>
+        <p class='featured-project'>Featured Project</p>
+        <h3 class='featured-project-title'>Faros</h3>
+        <div class='project-content-faros'>
+          <p>Designed and developed a web application that helps users to have better and more constructive conversations with significant others. <span style='color:#63FFDA'>Faros is a flash-card-like application </span>with different bundles that allow users to develop meaningful connections with family members, friends, or partners... on occasions like family gatherings, parties, first dates, etc.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pokedex-project">
+      <div>
+        <p class='featured-project-left'>Featured Project</p>
+        <h3 class='featured-project-title-left'>React Pokedex</h3>
+        <div class='project-content-left'>
+          <p>A web app to search or browse through your favorite Pokémon <span style='color:#63FFDA'>Searching your favorite Pokémon</span> made possible using <span style='color:#63FFDA'>JavaScript, the React library and an API!</span></p>
+        </div>
+      </div>
+
+      <%= image_tag 'pokedex.png', class:'pokedex-pic' %>
+    </div>
+
+  </div>
 
 </div>

@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #112240;
+  padding: 12px 24px;
+}
+
+.nav-logo {
+  // border-radius: 50%;
+  height: 55px;
+}
+
+.nav-options {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: lighter;
+}
+
+.resume-btn {
+  color: #63FFDA;
+  border: 2px solid #63FFDA;
+  padding: 5px 14px;
+  border-radius: 4px;
+}
+
+.resume-btn:hover{
+  background-color:#345792;
+}
+
+.nav-options ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-options li {
+  margin-right: 32px;
+}
+
+.nav-options li:last-child {
+  margin-right: 0px;
+}
+
+.nav-options a {
+  color: #CCD6F6;
+  text-decoration: none;
+}

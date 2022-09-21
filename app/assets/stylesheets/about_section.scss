@@ -1,0 +1,66 @@
+.about-section {
+  margin-top: 5%;
+  display: flex;
+  padding: 0 118px;
+}
+
+.inner {
+  padding-right: 64px;
+
+}
+
+.inner p {
+  color: #8892B0;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 3%;
+  font-weight: lighter;
+  // padding-right: 56px;
+}
+
+.about-header {
+  color: #CCD6F6;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 12%;
+}
+
+.span-num {
+  color: #63FFDA;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.about-pic {
+  height: 360px;
+  outline: 2px solid #63FFDA;
+  outline-offset: 5px;
+  border-radius: 4px;
+  transition: all ease-in-out 200ms;
+}
+
+.about-pic:hover {
+  outline: 5px solid #63FFDA;
+  outline-offset: 10px;
+}
+
+.skill-set {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 10px;
+}
+
+.skill-set {
+  color: #8892B0;
+}
+
+.skill-set li {
+  margin-top: 5px;
+  font-weight: 10px;
+}
+
+.skill-set li::before {
+  color: #63FFDA;
+  content: '> ';
+}

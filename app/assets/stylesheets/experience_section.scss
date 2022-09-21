@@ -1,0 +1,10 @@
+.experience_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.company {
+  background-color: #112240;
+  color: #CCD6F6;
+}

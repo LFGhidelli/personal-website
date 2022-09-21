@@ -14,5 +14,19 @@
 
   <body>
     <%= yield %>
+    <script>
+      const list = document.querySelector('.text-2')
+      const readMore = document.querySelectorAll('.read-more-btn')
+
+      for (let i = 0; i < readMore.length; i++) {
+        readMore[i].addEventListener('click', myFun);
+      }
+
+      function myFun(e) {
+        list.classList.toggle('show-more')
+      }
+
+
+    </script>
   </body>
 </html>
