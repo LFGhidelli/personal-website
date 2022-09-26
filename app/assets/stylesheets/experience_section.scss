@@ -4,7 +4,31 @@
   grid-gap: 16px;
 }
 
-.company {
+.card {
   background-color: #112240;
   color: #CCD6F6;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 32px;
+
+}
+
+// .hide {
+//   display: none;
+// }
+
+.show {
+  display: inline;
+}
+
+.more {
+  background-color: whitesmoke;
+  padding: 8px 8px;
+  display: inline-block;
+  margin-top: 16px;
+  cursor: pointer;
+  color: black;
+}
+
+.content {
+  display: none;
 }
