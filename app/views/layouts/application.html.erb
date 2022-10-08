@@ -18,6 +18,7 @@
     <script>
       let more = document.querySelectorAll('.more')
       let hide = document.querySelectorAll('.content')
+      // let anchors = document.querySelectorAll('scroll_to')
 
       for (let i = 0; i < more.length; i++) {
         more[i].addEventListener('click', function() {
@@ -27,7 +28,6 @@
           } else {
             more[i].innerHTML = 'More'
           }
-
         })
       }
     </script>

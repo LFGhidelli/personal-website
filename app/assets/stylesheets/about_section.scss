@@ -64,3 +64,21 @@
   color: #63FFDA;
   content: '> ';
 }
+
+.inner-profile-pic {
+  background-image: linear-gradient(rgba(97, 231, 204, 0.5), rgba(99, 255, 218, 0.5)) ,url('profile_pic.jpeg');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  outline: 2px solid #63FFDA;
+  outline-offset: 5px;
+  border-radius: 4px;
+  transition: all ease-in-out 100ms;
+}
+
+.inner-profile-pic:hover {
+  outline: 5px solid #63FFDA;
+  outline-offset: 10px;
+  background-image: url('profile_pic.jpeg');
+  transition: all ease-in 100ms;
+}
