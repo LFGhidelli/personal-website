@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-md navbar-light">
+    <%= link_to image_tag('LG.png', alt: '#', class: 'nav-logo'), root_path, class: 'navbar-brand' %>
+
+    <!-- Toggler button for collapsing the navbar on smaller screens -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="#about-me" class="nav-link scroll_to">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#my-experience" class="nav-link scroll_to">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a href="#my-works" class="nav-link scroll_to">Work</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link scroll_to">Contact</a>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Resume', '/cv.pdf', download: 'cv.pdf', target: '_self', class: 'nav-link resume-btn' %>
+        </li>
+      </ul>
+    </div>
+</nav>

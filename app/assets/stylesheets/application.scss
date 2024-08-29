@@ -14,7 +14,8 @@
  *= require_self
  */
 
-
+ @import 'navbar';
+ @import 'about_section';
 
  *{
   margin: 0;
@@ -23,7 +24,7 @@
  }
 
  body {
-  background-color: #0A192F;
+  background-color: #0A192F !important;
   // padding: 10px 40px;
  }
 
@@ -33,7 +34,7 @@ h1 {
 
 .container {
   padding: 0px 100px;
-  margin-top: 10%;
+  margin-top: 3rem;
 }
 
 .faros-project {

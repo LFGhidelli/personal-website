@@ -4,17 +4,19 @@
 }
 
 .card {
-  background-color: #112240;
-  color: #CCD6F6;
+  background-color: #112240 !important;
+  color: #CCD6F6 !important;
   font-family: 'Courier New', Courier, monospace;
   padding: 32px;
   margin-top: 80px;
   border-radius: 8px;
+  text-align: justify;
 }
 
-// .hide {
-//   display: none;
-// }
+.experience-cards {
+  display: grid !important;
+  place-items: center !important;
+}
 
 .show {
   display: inline;

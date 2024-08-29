@@ -1,26 +1,23 @@
 .about-section {
-  margin-top: 5%;
   display: flex;
-  padding: 0 118px;
+  margin-top: 1rem !important;
 }
 
 .inner {
-  padding-right: 64px;
-
+  display: flex;
+  text-align: justify;
 }
 
 .inner p {
   color: #8892B0;
   font-family: 'Roboto Mono', monospace;
-  margin-top: 3%;
   font-weight: lighter;
-  // padding-right: 56px;
 }
 
 .about-header {
   color: #CCD6F6;
   font-family: 'Roboto Mono', monospace;
-  margin-top: 12%;
+  margin-top: 7rem;
 }
 
 .span-num {
@@ -67,7 +64,7 @@
 
 .inner-profile-pic {
   background-image: linear-gradient(rgba(97, 231, 204, 0.5), rgba(99, 255, 218, 0.5)) ,url('profile_pic.jpeg');
-  width: 100%;
+  width: 18rem;
   background-position: center;
   background-size: cover;
   outline: 2px solid #63FFDA;
@@ -76,9 +73,9 @@
   transition: all ease-in-out 100ms;
 }
 
-.inner-profile-pic:hover {
-  outline: 5px solid #63FFDA;
-  outline-offset: 10px;
-  background-image: url('profile_pic.jpeg');
-  transition: all ease-in 100ms;
-}
+// .inner-profile-pic:hover {
+//   outline: 5px solid #63FFDA;
+//   outline-offset: 10px;
+//   background-image: url('profile_pic.jpeg');
+//   transition: all ease-in 100ms;
+// }
