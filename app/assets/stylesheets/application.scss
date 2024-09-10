@@ -41,26 +41,6 @@ h1 {
   display: flex;
 }
 
-.faros-pic{
-  background-image: linear-gradient(rgba(97, 231, 204, 0.5), rgba(97, 231, 204, 0.5)), url('Faros.jpeg');
-  background-size: cover;
-  background-position: center;
-  width: 151rem;
-  height: 250px;
-}
-
-.faros-pic:hover {
-  background-image: url('Faros.jpeg');
-}
-
-.faros-btn-pic img {
-  height: 342px;
-  width: 545px;
-  border-radius: 4px;
-  background-color: linear-gradient(rgba(97, 231, 204, 0.5), rgba(99, 255, 218, 0.5));
-}
-
-
 #projects-section {
   margin-top: 5%;
   padding: 0px 118px;
@@ -103,7 +83,6 @@ h1 {
 .featured-project-left {
   color: #63FFDA;
   font-family: 'Roboto Mono', monospace;
-
   font-weight: lighter;
 }
 
