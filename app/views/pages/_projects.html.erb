@@ -1,26 +1,31 @@
-<div id='projects-section'>
-
-  <div class='faros-project'>
-    <%= image_tag "Faros", style:"width: 100%"%>
-    <div>
+<div id='projects-section' class="container">
+  <div class="project row mb-4">
+    <div class="col-md-6 d-none d-md-block">
+      <%= image_tag "Faros", class: "img-fluid rounded" %>
+    </div>
+    <div class="col-md-6">
       <p class='featured-project'>Featured Project</p>
       <h3 class='featured-project-title'>Faros</h3>
-      <div class='project-content-faros'>
-        <p>Designed and developed a web application that helps users to have better and more constructive conversations with significant others. <span style='color:#63FFDA'>Faros is a flash-card-like application </span></p>
+      <div class='project-content-right'>
+        <p>Designed and developed a web application that helps users to have better and more constructive conversations with significant others.
+          <span style='color:#63FFDA'>Faros is a flash-card-like application</span>
+        </p>
       </div>
     </div>
-
   </div>
 
-  <div class="pokedex-project">
-    <div>
+  <div class="project row mb-4">
+    <div class="col-md-6">
       <p class='featured-project-left'>Featured Project</p>
       <h3 class='featured-project-title-left'>Rails Pokedex</h3>
       <div class='project-content-left'>
-        <p>A web app to search or browse through your favorite Pokémon <span style='color:#63FFDA'>Searching your favorite Pokémon</span> made possible using <span style='color:#63FFDA'>JavaScript, Rails and an API!</span></p>
+        <p>A web app to search or browse through your favorite Pokémon <span style='color:#63FFDA'>Searching your favorite Pokémon</span> made possible using
+          <span style='color:#63FFDA'>JavaScript, Rails and an API!</span>
+        </p>
       </div>
     </div>
-
-    <%= image_tag 'pokedex_2.png', style: "width: 100%"%>
+    <div class="col-md-6 d-none d-md-block">
+      <%= image_tag 'pokedex_2.png', class: "img-fluid rounded" %>
+    </div>
   </div>
 </div>

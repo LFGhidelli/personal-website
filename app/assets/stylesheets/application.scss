@@ -16,6 +16,7 @@
 
  @import 'navbar';
  @import 'about_section';
+ @import 'project_section';
 
  *{
   margin: 0;
@@ -25,7 +26,6 @@
 
  body {
   background-color: #0A192F !important;
-  // padding: 10px 40px;
  }
 
 h1 {
@@ -36,92 +36,3 @@ h1 {
   padding: 0px 100px;
   margin-top: 3rem;
 }
-
-.faros-project {
-  display: flex;
-}
-
-#projects-section {
-  margin-top: 5%;
-  padding: 0px 118px;
-}
-
-.project-content-faros{
-  color: #8892B0;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: lighter;
-  font-size: 14px;
-  background-color: #112240;
-  width: 98%;
-  position: relative;
-  right: 46px;
-  padding: 15px 30px;
-  margin-top: 28px;
-  border-radius: 8px;
-  opacity: 0.88;
-}
-
-.featured-project {
-  color: #63FFDA;
-  font-family: 'Roboto Mono', monospace;
-  text-align: end;
-  font-weight: lighter;
-}
-
-.featured-project-title {
-  color: #CCD6F6;
-  font-family: 'Roboto Mono', monospace;
-  text-align: end;
-  margin-top: 10px;
-}
-
-.pokedex-project {
-  display: flex;
-  margin-top: 12%;
-}
-
-.featured-project-left {
-  color: #63FFDA;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: lighter;
-}
-
-.featured-project-title-left {
-  color: #CCD6F6;
-  font-family: 'Roboto Mono', monospace;
-  margin-top: 10px;
-}
-
-.pokedex-pic {
-  background-image: linear-gradient(rgba(97, 231, 204, 0.5), rgba(99, 255, 218, 0.5)), url('pokedex.png');
-  width: 400rem;
-  background-size: cover;
-  background-position: center;
-  width: 99rem;
-  height: 250px;
-  // background-image: url('../images/pokedex.png')
-}
-
-.pokedex-pic:hover{
-  background-image: url('pokedex.png');
-}
-
-// .pokedex-pic:hover {
-//   background: #63FFDA;
-// }
-
-.project-content-left {
-  background-color: #112240;
-  color: #8892B0;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: lighter;
-  font-size: 14px;
-  padding: 23px 30px;
-  width: 98%;
-  position: relative;
-  opacity: 0.88;
-  border-radius: 8px;
-  margin-top: 44px;
-}
-
-// #64ffda;

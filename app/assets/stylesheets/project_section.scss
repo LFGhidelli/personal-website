@@ -1,0 +1,64 @@
+#projects-section {
+  margin-top: 5%;
+  padding: 0px;
+}
+
+.project-content-right {
+  color: #8892B0;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: lighter;
+  font-size: 14px;
+  background-color: #112240;
+  width: 100%;
+  right: 46px;
+  padding: 15px 30px;
+  margin-top: 28px;
+  border-radius: 8px;
+  opacity: 0.88;
+}
+
+.featured-project {
+  color: #63FFDA;
+  font-family: 'Roboto Mono', monospace;
+  text-align: end;
+  font-weight: lighter;
+}
+
+.featured-project-title {
+  color: #CCD6F6;
+  font-family: 'Roboto Mono', monospace;
+  text-align: end;
+  margin-top: 10px;
+}
+
+.project {
+  display: flex;
+  margin-top: 10% !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured-project-left {
+  color: #63FFDA;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: lighter;
+}
+
+.featured-project-title-left {
+  color: #CCD6F6;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 10px;
+}
+
+.project-content-left {
+  background-color: #112240;
+  color: #8892B0;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: lighter;
+  font-size: 14px;
+  padding: 23px 30px;
+  width: 100%;
+  opacity: 0.88;
+  border-radius: 8px;
+  margin-top: 44px;
+}
